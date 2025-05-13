@@ -1,0 +1,13 @@
+si (x == 5) {
+    mon_nom = "John";
+    imprimer mon_nom;
+    si (y==5){
+        y=y+1;
+    }
+    sinon si(y==6){
+        y=y+1;
+    }
+} sinon {
+    nombre = 10;
+    imprimer "Goodbye";
+}
